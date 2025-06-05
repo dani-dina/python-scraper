@@ -7,6 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
 from bs4 import BeautifulSoup
 import re
+from dotenv import load_dotenv
 
 CHROME_DRIVER_PATH = r"C:\Users\Kibret\Downloads\chromedriver-win64\chromedriver-win64\chromedriver.exe"
 LOGIN_URL = "https://www.example.com/Login"
