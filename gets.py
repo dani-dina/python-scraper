@@ -13,7 +13,8 @@ import os
 CHROME_DRIVER_PATH = r"C:\Users\Kibret\Downloads\chromedriver-win64\chromedriver-win64\chromedriver.exe"
 LOGIN_URL = "https://www.example.com/Login"
 MEMBER_DIR_URL = "https://exmple.com"
-
+USERNAME = os.getenv("USERNAME")
+PASSWORD = os.getenv("PASSWORD")
 OUTPUT_TXT_FILE = "name_address_map.txt"
 
 def initialize_driver():
