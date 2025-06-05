@@ -8,6 +8,7 @@ from selenium.webdriver.chrome.service import Service
 from bs4 import BeautifulSoup
 import re
 from dotenv import load_dotenv
+import os 
 
 CHROME_DRIVER_PATH = r"C:\Users\Kibret\Downloads\chromedriver-win64\chromedriver-win64\chromedriver.exe"
 LOGIN_URL = "https://www.example.com/Login"
