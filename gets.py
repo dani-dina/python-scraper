@@ -9,10 +9,10 @@ from bs4 import BeautifulSoup
 import re
 
 CHROME_DRIVER_PATH = r"C:\Users\Kibret\Downloads\chromedriver-win64\chromedriver-win64\chromedriver.exe"
-LOGIN_URL = "https://myaccount.aocs.org/PersonifyEbusiness/Login"
-MEMBER_DIR_URL = "https://myaccount.aocs.org/PersonifyEbusiness/My-Account/AOCS-Member-Benefits/Member-Directory"
-USERNAME = "gintas@conquistadorbioscience.com"
-PASSWORD = "6^Lm7*boNqdE&ZdG^%7%xqimp3!^2w"
+LOGIN_URL = "https://Login"
+MEMBER_DIR_URL = "https://"
+USERNAME = ""
+PASSWORD = ""
 OUTPUT_TXT_FILE = "name_address_map.txt"
 
 def initialize_driver():
